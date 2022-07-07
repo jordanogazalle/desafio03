@@ -4,10 +4,10 @@ body {
     margin: 0 auto;
 
     font-family: "Open Sans",
-        sans-serif;
+    sans-serif;
 
     background: #2C2B3D;
-
+   
     min-height: 100vh;
 
 }
@@ -45,15 +45,14 @@ ul li a:hover {
     font-weight: bold;
 }
 
-h1,
-ul {
+h1, ul {
     font-family: 'JetBrains Mono', monospace;
 }
 
 main {
     display: flex;
     width: 1092px;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
     justify-content: space-between;
 }
 
@@ -109,9 +108,9 @@ footer a {
 
 #padlock {
     position: absolute;
-    top: 638px;
-    width: 51px;
-    height: 62px;
-    left: 20px;
-    top: 638px;
-}
+	  top: 638px;
+		width: 51px;
+		height: 62px;
+		left: 20px;
+		top: 638px;
+}    
